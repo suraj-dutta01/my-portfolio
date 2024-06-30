@@ -1,0 +1,62 @@
+.aboutpage{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 90px;
+    padding-right: 165px;
+    padding-top: 15px;
+    gap: 2vh;
+   
+}
+.aboutmepart{
+    padding-top: 35px;
+    width: 60%;
+}
+.aboutmepart p{
+    margin-top: -5px;
+    font-size: 14px;
+    font-weight: 500;
+}
+.aboutmepart button{
+    height: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    background-color: rgb(112, 209, 71);
+    color: rgb(255, 255, 255);
+    border-radius: 7px;
+    gap: 2.3px;
+    transition: 300ms;
+}
+.aboutmepart button:hover{
+    background-color: rgb(96, 182, 59);
+}
+#downloadicon{
+    height: 18px;
+}
+.buttonbox{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 15px;
+}
+.abouttitle{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 7vw;
+    margin-bottom: 5px;
+}
+#iconid{
+    margin-top: 15px;
+}
+.imagepart{
+    height: 400px;
+    overflow: hidden;
+    border-radius: 50%;
+}
+.imagepart img{
+    padding-right: 30px;
+    height: 420px;  
+}

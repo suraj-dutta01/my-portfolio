@@ -1,0 +1,33 @@
+.navbar{
+    height: 10vh;
+    width: 100%;
+    background-color: rgb(23, 23, 23);
+    color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: start;
+    gap: 32%;
+    align-items: center;
+}
+.leftbar{
+    width: 18%;
+    padding-bottom: 5px;
+    padding-left: 90px;
+}
+.rightbar{
+    width: 35%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.rightbar a{
+    text-decoration: none;
+    color: white;
+}
+.rightbar h4{
+    padding: 15.5px;
+    transition: 300ms;
+}
+.rightbar h4:hover{
+    border-bottom: 4px solid greenyellow;
+}

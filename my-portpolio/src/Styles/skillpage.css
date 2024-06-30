@@ -1,0 +1,165 @@
+.skillpage{
+ background-color: rgb(230, 238, 245);
+ height: 89.9vh;
+ margin-top: -14px;
+}
+#skilltitle{
+    font-size: 22px;
+    padding-top: 7px;
+    margin-bottom: 5px;
+    padding-left: 10%;
+}
+.skillbox{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 2vh;
+    }
+.skillpage h3{
+    display:flex;
+    justify-content: start;
+    gap: 12px;
+    padding-left: 20px;
+    margin-top: 10px;
+}
+.techinicalskills{
+    height: 25vh;
+    background-color: rgb(255, 255, 255);
+    width: 80%;
+}
+.mybadges{
+    height: 25vh;
+    background-color: rgb(255, 255, 255);
+    width: 80%;
+}
+.mycertifications{
+    height: 27vh;
+    background-color: rgb(255, 255, 255);
+    width: 80%;
+}
+.tskillsbox{
+    /* margin-left: 80px;
+    margin-top: -10px;
+    height: 58%;
+    width: 80%;
+    display: grid;
+    grid-template-columns: repeat(6,100px); 
+    grid-template-rows: auto; 
+    gap: 10px; 
+    padding: 10px;  */
+    width: 95%;
+    display: flex;
+    align-items: center;
+    margin-left: 2.5%;
+    justify-content: space-evenly;
+    margin-top: -8px;
+}
+.tskillsbox img{
+    height: 50px;
+    width: 50px;
+    transition: 400ms;
+    padding: 2px;
+}
+.tskillsbox img:hover{
+   transform: scale(1.2);
+}
+.xskill{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;    
+   
+}
+.xskill p{
+    font-size: 12px;
+    font-weight: bold;
+    margin-top: 3px;
+}
+.badgebox{
+    display: flex;
+}
+.hackerrank{
+    display: flex;
+    align-items: center;
+    width: 40%;
+    padding-left: 10vh;
+    justify-content: start;
+    gap: 4vh;
+    margin-top: -5px;
+}
+
+.hackerrank img{
+   height: 70px;
+}
+.leetcode img{
+    height: 60px;
+}
+.leetcode{
+    width: 120px;
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+}
+.allcertificates{
+    margin-top: -5px;
+    height: 90px;
+    width: 80%;
+    margin-left: 10vh;
+    display: flex;
+    gap: 5vh;
+}
+.certificate{
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    flex-direction: column;
+    height:83px;
+    width: 125px;   
+    position: relative;
+    background-color: #1ba94c;
+    color: rgb(232, 227, 227);
+    padding-left: 22px;
+    box-shadow: -5px 5px 10px rgba(0, 0, 0, 0.262);
+}
+.cbadgelogo{
+    margin-left: -20px;
+    margin-top: 2px;
+    margin-bottom: 3px;
+    color:rgb(255, 255, 255);
+}
+.certificate h6{
+    margin-top: -1px;
+    margin-bottom:-20px ;
+    margin-right: 15px;
+}
+.certificate h5{
+    margin-right: 49px;
+}
+.folded-corner{
+    height: 35px;
+    width: 37px;
+    position: absolute;
+    left: 77.5%;
+    overflow: hidden;
+    background-color: #67e292;
+    box-shadow: -5px 5px 10px rgba(0, 0, 0, 0.2);
+}
+.cover-box{
+    height: 55px;
+    width: 27px;
+    transform: rotate(137deg);
+    background-color: rgb(255, 255, 255);
+    position: absolute;
+    left: 87%;
+    top: -22%;
+    overflow: hidden;
+}
+
+
+
+
+
+
+

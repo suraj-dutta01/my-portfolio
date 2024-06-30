@@ -1,0 +1,77 @@
+.projectpage{
+    margin-top: -22px;
+}
+#ptitle{
+    font-size: 20px;
+    padding-top: 20px;
+    padding-left: 90px;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    margin-left: 5%;
+}
+.prohectbox img{
+    height: 170px;
+    width: 257px;
+    border: 1px solid black;
+}
+.prohectbox{
+    display: grid;
+    grid-template-columns: repeat(4,260px);
+    gap: 20px;
+    padding: 20px;
+    border: 1px solid #dccaca;
+    border-radius: 8px;
+}
+.project{
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    text-align: center;
+    border-radius: 8px;
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    flex-direction: column;
+    
+  }
+  .project h1{
+    font-size: 15px;
+    padding-left: 8px;
+    margin-bottom: -2px;
+    text-align: start;
+  }
+  .skilluse{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    padding-left: 8px;
+    gap: 5px;
+    flex-wrap: wrap;
+  }
+  .project h3{
+    font-size: 12px;
+    padding: 3px 6px;
+    background-color: rgb(133, 252, 35);
+    border-radius: 10px;
+  }
+  
+  @media (max-width: 1200px) {
+    .grid-container {
+      grid-template-columns: repeat(3, 1fr);
+    }
+  }
+  
+  @media (max-width: 800px) {
+    .grid-container {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+  
+  @media (max-width: 600px) {
+    .grid-container {
+      grid-template-columns: 1fr;
+    }
+  }
